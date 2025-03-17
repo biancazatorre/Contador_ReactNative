@@ -11,6 +11,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+       <Text style={styles.contadorText}>Contador de coisas </Text>
       <Text style={styles.contadorText}>{contador}</Text>
 
       <TouchableOpacity style={[styles.button, styles.buttonIncrementar]} onPress={incrementar}>
